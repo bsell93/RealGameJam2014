@@ -1,0 +1,1 @@
+Assets/Standard Assets/Skyboxes/Textures/StarryNight/StarryNight_back.tif
