@@ -3,13 +3,15 @@ using System.Collections;
 
 public class MoveOnRightClick : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+	private UnitManager uManager;
 	
+	void Start()
+	{
+		uManager = GameObject.FindGameObjectWithTag("God").GetComponent("UnitManager") as UnitManager;
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+	void RighClicked(Vector3 place)
+	{
+		foreach (GameObject unit in uManager.unitManager)
+			unit.GetComponent<Pathfinder>().GoTo(place);
 	}
 }

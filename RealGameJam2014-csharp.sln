@@ -1,6 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{5900AE1A-288C-58F3-24E4-2E054D40D0BF}") = "RealGameJam2014", "Assembly-CSharp-firstpass-vs.csproj", "{83C00C08-5C51-4D55-2134-FB90DF68EC44}"
+EndProject
 Project("{5900AE1A-288C-58F3-24E4-2E054D40D0BF}") = "RealGameJam2014", "Assembly-CSharp-vs.csproj", "{9C569D42-76E4-F433-DBD9-9337E5DCED58}"
 EndProject
 Project("{5900AE1A-288C-58F3-24E4-2E054D40D0BF}") = "RealGameJam2014", "Assembly-CSharp-Editor-vs.csproj", "{F7C679E9-E960-F51A-C9BF-D1AFD3E19F9E}"
@@ -11,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83C00C08-5C51-4D55-2134-FB90DF68EC44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83C00C08-5C51-4D55-2134-FB90DF68EC44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83C00C08-5C51-4D55-2134-FB90DF68EC44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83C00C08-5C51-4D55-2134-FB90DF68EC44}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9C569D42-76E4-F433-DBD9-9337E5DCED58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9C569D42-76E4-F433-DBD9-9337E5DCED58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C569D42-76E4-F433-DBD9-9337E5DCED58}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -23,7 +29,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-								GlobalSection(MonoDevelopProperties) = preSolution
+													GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
